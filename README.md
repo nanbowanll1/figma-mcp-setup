@@ -2,6 +2,8 @@
 
 A [Claude Code Skill](https://docs.anthropic.com/en/docs/claude-code) that helps you configure the [figma-developer-mcp](https://github.com/nicolo-figma/figma-developer-mcp) server for Claude Code, enabling Claude to interact with Figma designs directly.
 
+[中文文档](./README_CN.md)
+
 ## Features
 
 - Step-by-step guide to obtain Figma API Key
@@ -41,7 +43,8 @@ Claude will guide you through:
 ```
 figma-mcp-setup/
 ├── SKILL.md                        # Main skill instructions
-├── README.md                       # This file
+├── README.md                       # English documentation
+├── README_CN.md                    # Chinese documentation
 ├── scripts/
 │   └── validate_figma_key.py       # API Key validation script
 └── references/
